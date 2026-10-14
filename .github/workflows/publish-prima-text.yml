@@ -1,0 +1,34 @@
+name: Publish Prima guide text
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/extract_prima_text.py"
+      - "Goblin_Commander_Unleash_The_Horde_Strategy_Guide_2004_Book.pdf"
+      - ".github/workflows/publish-prima-text.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install PDF text extraction tool
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - name: Extract original embedded text with page references
+        run: python3 tools/extract_prima_text.py
+      - name: Commit generated text to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add prima/Goblin_Commander_Prima_2004_RAW_TEXT.txt prima/Goblin_Commander_Prima_2004_PAGE_INDEXED.md
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish page-indexed raw Prima guide text from source PDF"
+            git push
+          else
+            echo "Text files already current."
+          fi
