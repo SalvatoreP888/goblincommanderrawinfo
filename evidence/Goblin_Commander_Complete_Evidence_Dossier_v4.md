@@ -7,6 +7,9 @@ lang: en-US
 
 # GOBLIN COMMANDER: UNLEASH THE HORDE
 
+> **Research update (14 October 2026):** This V4 document is preserved as a historical snapshot. See the [latest research index](../research/START_HERE.md), [Fraziel and humanity](../research/FRAZIEL_AND_ANCIENT_OGRISS.md), and [corrected claim ledger V5](Goblin_Commander_Claims_Evidence_v5.csv). Its references to 41 image captures concern a prior **separate ZIP**, not 41 PNG files currently in GitHub. The original Prima PDF and page-indexed text are here. The latest corrected mission title in the index is **“Oink, Oink, Oink, Boom!”**.
+
+
 **COMPLETE CANON & EVIDENCE DOSSIER — V4.0**  
 **Updated 14 October 2026 | Version 4: authenticated Prima source & proof captures | Full spoilers**
 

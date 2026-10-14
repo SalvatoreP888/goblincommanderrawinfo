@@ -1,24 +1,11 @@
-# Goblin Commander — evidence status and capture queue
+# Evidence directory — what GitHub actually stores (2026-10-14)
 
-Evidence baseline: 14 October 2026.
+The repository includes the original Prima PDF with its verified SHA-256, and its complete page-indexed text. The earlier V4 report mentions 41 separate original-PDF PNG screenshots from an **external research ZIP**. **Those PNGs are not currently checked into this repository.**
 
-This package contains an **auditable source ledger**, not fabricated screenshots or unpermitted reuploads. Each claim in `Goblin_Commander_Claims_Evidence_v3.csv` includes URLs and exact locators where known. Source files hosted by third parties were **not downloaded locally** because the original PDF servers were not accessible from the artifact container. The source PDFs remain linked in the report and source index.
+The present machine-readable record is [Claims Evidence V5](../Goblin_Commander_Claims_Evidence_v5.csv) and the [source/proof inventory](../../research/SOURCE_AND_PROOF_STATUS.md). V3 is retained for history but contains older wording around the Wise One's deceptive truce.
 
-## Evidence standard for later archival runs
+For authentic screenshots from the stored source, run `python tools/render_prima_proof.py` after installing PyMuPDF. It checks the original PDF's SHA-256, produces context and direct passage PNGs, and outputs an integrity manifest. **Generated files only exist after execution**; no placeholders or invented screenshot citations.
 
-1. Create `EVIDENCE/<claim_id>/` for the claim.
-2. Capture a faithful, permitted original source or official archived version as `source_original.<ext>` (never recreate it from memory).
-3. Capture the **exact supporting passage**, with visible source identity/page context, as `passage_screenshot.png` and preserve the original untouched.
-4. Record the direct public URL, Wayback URL if relevant, capture date, printed page/PDF page or timestamp, uploader provenance and SHA-256 of each captured file.
-5. Link both files to the corresponding claim ID in the CSV.
-6. Do not mark screenshots `captured` until both files exist and were visually inspected. Do not silently treat an indexed excerpt as a page screenshot.
-7. Where reproducing whole copyrighted media is not authorized, preserve metadata, a short lawful excerpt, and a locator; do not bypass access restrictions.
+Every research claim should include an exact source URL and page/timestamp. Original manuals and licensed guide citations are not automatically verbatim game dialogue, and historical advertisements are not necessarily released-story canon. Do not treat the original Wayback site's calendar as a recovered archived profile.
 
-## Target priorities
-
-- Original Xbox manual: printed pp. 17, 20, 22–33; chronology/clans/Titans.
-- Prima strategy guide: printed pp. 4, 90–92, 101, 107–109; Wise One/replicas/bombs/king.
-- Original Spanish *Official Xbox Magazine* interview: find exact issue page and verify sequel/online-play sentence in Spanish.
-- Prototype preservation record: Hidden Palace build metadata, damaged-disc warning.
-- Current Fandom wiki: article-by-article snapshot before claiming a gap.
-- Original 2003 official site: verify each actual Wayback capture rather than saving an index page alone.
+Priorities: original Xbox manual pp. 22–23, 32–33; Nighthorde original-site page verification; actual retail cutscene transcription; unresolved Fraziel intentions; Naxus's ultimate fate.

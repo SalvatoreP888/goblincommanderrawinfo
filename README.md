@@ -41,6 +41,20 @@ We aim to credit original authors, publishers, artists, archivists, and hosts wh
 
 *This description explains the purpose and approach of the archive; it is not a legal opinion or a blanket authorization to republish copyrighted works.*
 
+## Current research index — October 14, 2026
+
+The previous V4 report is retained, but the **[latest source-checked research index](research/START_HERE.md)** and evidence ledger contain the most recent corrections.
+
+- [Fraziel, ancient knowledge, and where other humans lived](research/FRAZIEL_AND_ANCIENT_OGRISS.md)
+- [All named characters, the Wise One, and five moons](research/CHARACTERS.md)
+- [Source and proof inventory](research/SOURCE_AND_PROOF_STATUS.md)
+- [Updated 131-claim evidence ledger V5](evidence/Goblin_Commander_Claims_Evidence_v5.csv) — retains V3 as archival provenance.
+- [Authentic proof-capture generator](tools/render_prima_proof.py) — verifies the source PDF SHA-256, then makes unmodified context and passage images.
+
+**Current corrections:** The Wise One's supposed truce was a three-Slime trap; a sincere Plaguespitter resistance faction is not established. Nighthorde goblins really did defect. Naxus made soulless replicas with Fraziel's Moonstone, and the final mission contains five colored bombs. Ancient wisdom is documented, but its originating civilization, Fraziel's teacher, and any other human homeland remain unknown.
+
+**Screenshot caveat:** The 41 PNG captures referenced in V4 were generated in an earlier separate artifact, **not stored in this GitHub repository**. Here the original Prima PDF and page-indexed text are available; the linked generator can produce PNGs when run.
+
 ## Read and study the 2004 Prima Strategy Guide
 
 - **[Page-indexed guide text (searchable Markdown)](prima/Goblin_Commander_Prima_2004_PAGE_INDEXED.md)** — embedded PDF text organized by all 129 PDF pages, with source-page links.
@@ -52,6 +66,7 @@ The text extraction is intended to make quotations **locatable and verifiable**.
 
 ## Lore and evidence-based research
 
+- **[Current research index](research/START_HERE.md)** — newer corrections, ancient world, humans, characters, exact proof status.
 - **[Canon & Evidence Dossier v4](evidence/Goblin_Commander_Complete_Evidence_Dossier_v4.md)** — campaign chronology, clan mythology, source references, correction notes, and unresolved questions.
 - [Earlier evidence dossier v3](evidence/Goblin_Commander_Complete_Evidence_Dossier_v3.md).
 - [Claim-by-claim evidence ledger v3](evidence/Goblin_Commander_Claims_Evidence_v3.csv).
