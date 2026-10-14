@@ -1,0 +1,19 @@
+{
+  "version": "v3.0",
+  "date": "2026-10-14",
+  "total_claims": 91,
+  "unique_urls": 58,
+  "category_counts": {
+    "D": 30,
+    "B": 31,
+    "A/B": 2,
+    "G": 15,
+    "A/G": 1,
+    "G/D": 4,
+    "L": 5,
+    "H": 3
+  },
+  "original_source_files_included": 0,
+  "verified_source_screenshots_included": 0,
+  "note": "Links and locators attached. Original source+screenshots not falsely represented as included."
+}
