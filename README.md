@@ -1,29 +1,79 @@
-# Goblin Commander: Unleash the Horde — Research Archive
+# Goblin Commander: Unleash the Horde — Historical Research & Preservation Archive
 
-Source-backed lore, development history, preserved documentation, and research notes for the 2003 game.
+> **Independent historical archive · Game preservation · Source-based research · Fair-use context**
+>
+> This is an **unofficial research and digital-preservation project** dedicated to documenting *Goblin Commander: Unleash the Horde* (2003), its world and story, the people who created it, and the historical material surrounding its release. It is **not affiliated with, sponsored by, or endorsed by** Jaleco, Prima Games, or any current rights holder.
 
-## Read the 2004 Prima Strategy Guide
+## Why this archive exists
 
-- **[Page-indexed full guide text (searchable Markdown)](prima/Goblin_Commander_Prima_2004_PAGE_INDEXED.md)** — all 129 PDF pages, with a direct source link on every page.
-- **[Full RAW Prima text (TXT)](prima/Goblin_Commander_Prima_2004_RAW_TEXT.txt)** — extracted from the original embedded PDF text layer, not an AI summary.
-- **[Original Prima PDF](Goblin_Commander_Unleash_The_Horde_Strategy_Guide_2004_Book.pdf)** — preserves artwork, page layout, screenshots, and maps.
-- [How extraction works, page numbers and source integrity](prima/README.md).
+*Goblin Commander* has a distinctive history, scattered source material, and story details that are easily lost when older websites, magazines, guides, and communities disappear. This project brings surviving materials together so researchers, preservationists, fans, and future historians can:
 
-## Lore and evidence
+- **Document the game's history** through period manuals, publisher materials, interviews, and the 2004 Prima strategy guide.
+- **Preserve source provenance**: original URLs, page references, dates, evidence captures, and checksums.
+- **Study the game's canon carefully**, distinguishing actual released-game content from guide commentary, prerelease plans, fan interpretations, and unverified claims.
+- **Make historical sources findable and searchable**, including a machine-extracted, page-indexed text transcription of the Prima guide.
+- **Support citation and verification**, so claims can be checked against the original material instead of repeated without proof.
+- **Encourage responsible preservation and further research**, including documentation of material that may no longer be readily available.
 
-- **[Updated Canon & Evidence Dossier v4](evidence/Goblin_Commander_Complete_Evidence_Dossier_v4.md)** — campaign chronology, clan mythology, source references, and corrected Wise One interpretation.
-- [Earlier evidence dossier v3](evidence/Goblin_Commander_Complete_Evidence_Dossier_v3.md)
-- [v3 claim evidence ledger](evidence/Goblin_Commander_Claims_Evidence_v3.csv)
-- [v3 source register](evidence/Goblin_Commander_Master_Sources_v3.csv)
+The goal is historical documentation and scholarship, **not passing off the original works as our own, creating a replacement commercial edition, or claiming ownership of the game or guide**.
 
-## Verifiable source integrity
+## Historical preservation, copyright & fair use
 
-Original Prima guide SHA-256:
+This repository contains archival references and research materials involving copyrighted works. *Goblin Commander*, its artwork, characters, game assets, manuals, and strategy guides remain the property of their respective rights holders.
+
+**The project's intended purpose is research, criticism, commentary, teaching, documentation, and historical preservation.** When applicable, these are purposes that may support a **fair-use argument under Section 107 of the U.S. Copyright Act**. Features relevant to that purpose include source attribution, scholarly commentary, page-level citations, accurate archival context, and the ability to verify claims against surviving documentation.
+
+However, **fair use is determined case by case; this statement does not establish or guarantee that any particular reproduction or distribution is lawful.** In the United States, courts consider the purpose and character of the use, the nature of the copyrighted work, the amount and substantiality used, and the effect on the potential market. **Hosting an entire copyrighted guide or full text weighs differently from quoting limited passages for analysis** and may require permission even when the purpose is preservation or education.
+
+This repository therefore does **not** claim that:
+- The game or strategy guide is in the public domain.
+- Historical importance or lack of commercial availability automatically makes redistribution fair use.
+- Attribution alone authorizes copying.
+- All files here are freely reusable or relicensable.
+
+**Source materials are shared here for historical reference and analysis, not as a grant of rights to redistribute them.** Please consult the original rights holders when seeking permission for further reproduction, reuse, or republication.
+
+For an authoritative overview, see the [U.S. Copyright Office's fair-use guidance](https://www.copyright.gov/fair-use/) and [17 U.S.C. § 107](https://www.copyright.gov/title17/92chap1.html#107).
+
+### Attribution and rights-holder concerns
+
+We aim to credit original authors, publishers, artists, archivists, and hosts wherever sources can be identified. If you are a rights holder and believe specific content should be attributed differently, limited, replaced with a citation-only reference, or removed, please contact the repository maintainer through GitHub with the relevant file paths and your concern. We will review legitimate requests and take appropriate action.
+
+*This description explains the purpose and approach of the archive; it is not a legal opinion or a blanket authorization to republish copyrighted works.*
+
+## Read and study the 2004 Prima Strategy Guide
+
+- **[Page-indexed guide text (searchable Markdown)](prima/Goblin_Commander_Prima_2004_PAGE_INDEXED.md)** — embedded PDF text organized by all 129 PDF pages, with source-page links.
+- **[Raw selectable PDF text (TXT)](prima/Goblin_Commander_Prima_2004_RAW_TEXT.txt)** — machine-extracted transcription, not an AI reconstruction or paraphrase.
+- **[Prima guide source PDF](Goblin_Commander_Unleash_The_Horde_Strategy_Guide_2004_Book.pdf)** — contains original artwork, layouts, screenshots, and maps; subject to the rights considerations above.
+- [Extraction methodology, page numbering, and source integrity](prima/README.md).
+
+The text extraction is intended to make quotations **locatable and verifiable**. It may omit text embedded in images or preserve layout artifacts. **Always inspect the original page before making a claim or quoting a passage.**
+
+## Lore and evidence-based research
+
+- **[Canon & Evidence Dossier v4](evidence/Goblin_Commander_Complete_Evidence_Dossier_v4.md)** — campaign chronology, clan mythology, source references, correction notes, and unresolved questions.
+- [Earlier evidence dossier v3](evidence/Goblin_Commander_Complete_Evidence_Dossier_v3.md).
+- [Claim-by-claim evidence ledger v3](evidence/Goblin_Commander_Claims_Evidence_v3.csv).
+- [Historical source register v3](evidence/Goblin_Commander_Master_Sources_v3.csv).
+
+### Research methodology
+
+Every substantive lore or development claim should identify a verifiable source and the exact place supporting it (page, timestamp, archived URL, file identifier, or screenshot). Findings should be explicitly distinguished as:
+
+1. **Released-game canon:** dialogue, cinematics, and observable material in the shipped game.
+2. **Official supplemental material:** original manuals and authorized reference guides.
+3. **Development history:** publisher statements, interviews, previews, and prototypes that may differ from the final game.
+4. **Community accounts or interpretation:** forum posts, fan theories, and unresolved hypotheses.
+
+Where sources conflict, **record the contradiction instead of manufacturing an answer**. Preserve original documents and authentic passage captures in an evidence archive when lawful and practicable.
+
+## Reproducibility and source integrity
+
+The referenced Prima PDF has this SHA-256 checksum:
 
 `d97aa508cdc14fa0b89df6ee2009484ec6fffac304f4c79280755f9daa4690a7`
 
-Generated text is reproducible with `python3 tools/extract_prima_text.py` (requires Poppler's pdftotext), and is automatically updated by the [GitHub Actions workflow](.github/workflows/publish-prima-text.yml) when the PDF or extractor changes.
+The searchable text is reproducibly generated from that file using `python3 tools/extract_prima_text.py` and Poppler's `pdftotext`. The [GitHub Actions extraction workflow](.github/workflows/publish-prima-text.yml) can regenerate it when the PDF or extraction script changes.
 
-**Research standard:** Distinguish shipped-game canon from licensed-guide statements, prerelease plans, fan theories, and unresolved claims. Citations should point to exact original page numbers or timestamps.
-
-**Rights notice:** Prima Games material is copyrighted. Public archiving does not itself grant redistribution rights; review rights-holder permissions for reuse.
+*All trademarks, game content, and third-party source materials remain with their respective owners. This independent project aims to preserve the historical record with transparent sourcing and respect for creators' rights.*
