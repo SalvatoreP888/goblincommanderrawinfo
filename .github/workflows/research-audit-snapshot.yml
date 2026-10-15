@@ -1,0 +1,24 @@
+name: Research audit snapshot
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/research-audit-snapshot.yml
+permissions:
+  contents: read
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Package exact tracked research snapshot
+        run: |
+          git rev-parse HEAD > SNAPSHOT_COMMIT.txt
+          git archive --format=zip HEAD -o "$RUNNER_TEMP/goblin-research-snapshot.zip"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: goblin-research-audit-snapshot
+          path: |
+            ${{ runner.temp }}/goblin-research-snapshot.zip
+            SNAPSHOT_COMMIT.txt
+          retention-days: 30
