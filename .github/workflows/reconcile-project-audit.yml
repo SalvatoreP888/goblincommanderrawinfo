@@ -21,7 +21,9 @@ jobs:
       - name: Install fixed renderer
         run: python -m pip install 'PyMuPDF==1.26.7'
       - name: Reproduce original proof and reconcile claims
-        run: python tools/reconcile_project_audit.py
+        run: |
+          python tools/restore_precise_crop_coordinates.py
+          python tools/reconcile_project_audit.py
       - name: Commit only audited research outputs
         run: |
           git config user.name 'github-actions[bot]'
