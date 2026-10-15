@@ -1,0 +1,44 @@
+name: Reconcile and validate project evidence
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/reconcile-project-audit.yml
+permissions:
+  contents: write
+concurrency:
+  group: goblin-project-evidence-reconciliation
+  cancel-in-progress: false
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install fixed renderer
+        run: python -m pip install 'PyMuPDF==1.26.7'
+      - name: Reproduce original proof and reconcile claims
+        run: python tools/reconcile_project_audit.py
+      - name: Commit only audited research outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence research README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish V6 reconciliation, 41 hash-matched crops and original manual proof'
+            git push origin HEAD:main
+          fi
+          git rev-parse HEAD > AUDIT_COMMIT.txt
+          git archive --format=zip HEAD -o "$RUNNER_TEMP/goblin-project-audit-repository.zip"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: goblin-project-audit-validated
+          path: |
+            ${{ runner.temp }}/goblin-project-audit-repository.zip
+            evidence/audit_2026-10-14/validation.json
+            AUDIT_COMMIT.txt
+          retention-days: 90
