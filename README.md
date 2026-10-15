@@ -1,6 +1,12 @@
-> **Project-wide audit supersedes older status below.** Read the [14 October audit](research/PROJECT_AUDIT_2026-10-14.md) for V6 corrections, actual committed proof, technical research and outreach. Older references to missing PNGs or V5 as the latest ledger are historical.
-
 # Goblin Commander: Unleash the Horde — Historical Research & Preservation Archive
+
+## Start here: Everything We Know
+
+### [Read the complete plain-English handbook →](EVERYTHING_WE_KNOW.md)
+
+The story from beginning to end; all five clans and their characters, units, Titans, and technologies; Ogriss, the moons, and the unresolved lore; the real game's development; recovered archives; and our browser-reconstruction research. Includes a clickable contents section, quick answers, and source notes.
+
+**[Project-wide audit](research/PROJECT_AUDIT_2026-10-14.md)** · **[Current V6 claims register](evidence/Goblin_Commander_Claims_Evidence_v6.csv)** · **[Contacts and questions](research/OUTREACH_CONTACTS_AND_QUESTIONS.md)**
 
 > **Independent historical archive · Game preservation · Source-based research · Fair-use context**
 >
@@ -43,35 +49,40 @@ We aim to credit original authors, publishers, artists, archivists, and hosts wh
 
 *This description explains the purpose and approach of the archive; it is not a legal opinion or a blanket authorization to republish copyrighted works.*
 
-## Current research index — October 14, 2026
+## Current research index — October 14, 2026 audit baseline
 
-The previous V4 report is retained, but the **[latest source-checked research index](research/START_HERE.md)** and evidence ledger contain the most recent corrections.
+The **[Everything We Know handbook](EVERYTHING_WE_KNOW.md)** is the main reading document. The **[project-wide audit](research/PROJECT_AUDIT_2026-10-14.md)** and **[research index](research/START_HERE.md)** explain source status, corrections, and remaining gaps. Older dossiers and ledgers remain dated historical snapshots.
 
 - [Fraziel, ancient knowledge, and where other humans lived](research/FRAZIEL_AND_ANCIENT_OGRISS.md)
 - [All named characters, the Wise One, and five moons](research/CHARACTERS.md)
-- [Source and proof inventory](research/SOURCE_AND_PROOF_STATUS.md)
-- [Updated 131-claim evidence ledger V5](evidence/Goblin_Commander_Claims_Evidence_v5.csv) — retains V3 as archival provenance.
-- [Authentic proof-capture generator](tools/render_prima_proof.py) — verifies the source PDF SHA-256, then makes unmodified context and passage images.
+- [Current 133-claim evidence ledger V6](evidence/Goblin_Commander_Claims_Evidence_v6.csv), [change log](evidence/V6_CHANGELOG.md), and [legacy claim-ID crosswalk](evidence/LEGACY_CLAIM_ID_CROSSWALK.csv)
+- [Technical reconstruction research and seven blocker areas](research/TECHNICAL_RESEARCH_AND_GAPS.md)
+- [Archive leads, map limitations, and exact mission index](research/ARCHIVE_LEADS_AND_MAPS.md)
+- [People to contact and role-specific questions](research/OUTREACH_CONTACTS_AND_QUESTIONS.md)
+- [Recovery inventory](research/RECOVERY_INVENTORY_2026-10-14.csv) and [published proof-validation results](evidence/audit_2026-10-14/validation.json)
 
 **Current corrections:** The Wise One's supposed truce was a three-Slime trap; a sincere Plaguespitter resistance faction is not established. Nighthorde goblins really did defect. Naxus made soulless replicas with Fraziel's Moonstone, and the final mission contains five colored bombs. Ancient wisdom is documented, but its originating civilization, Fraziel's teacher, and any other human homeland remain unknown.
 
-**Screenshot caveat:** The 41 PNG captures referenced in V4 were generated in an earlier separate artifact, **not stored in this GitHub repository**. Here the original Prima PDF and page-indexed text are available; the linked generator can produce PNGs when run.
+**Proof now preserved:** The original Prima PDF, original Xbox manual, and [85 indexed proof-image records](evidence/audit_2026-10-14/proof_manifest.csv) are committed. The audit reproduced all 41 recovered V4 passage captures with matching hashes; two share image bytes. It rechecked supporting passages for 52 claim entries, not every claim in the register. See the [validation report](evidence/audit_2026-10-14/validation.json). Earlier statements that these images or the manual were not stored are superseded.
 
-## Read and study the 2004 Prima Strategy Guide
+## Read and study the original sources
 
-- **[Page-indexed guide text (searchable Markdown)](prima/Goblin_Commander_Prima_2004_PAGE_INDEXED.md)** — embedded PDF text organized by all 129 PDF pages, with source-page links.
+- **[Page-indexed Prima guide text (searchable Markdown)](prima/Goblin_Commander_Prima_2004_PAGE_INDEXED.md)** — embedded PDF text organized by all 129 PDF pages, with source-page links.
 - **[Raw selectable PDF text (TXT)](prima/Goblin_Commander_Prima_2004_RAW_TEXT.txt)** — machine-extracted transcription, not an AI reconstruction or paraphrase.
-- **[Prima guide source PDF](Goblin_Commander_Unleash_The_Horde_Strategy_Guide_2004_Book.pdf)** — contains original artwork, layouts, screenshots, and maps; subject to the rights considerations above.
+- **[Prima guide source PDF](Goblin_Commander_Unleash_The_Horde_Strategy_Guide_2004_Book.pdf)** — original artwork, layouts, screenshots, and maps; subject to the rights considerations above.
+- **[Original Xbox instruction manual](evidence/audit_2026-10-14/Jaleco_Xbox_Manual.pdf)** — gameplay instructions, the Chronicle of Being, and clan lore.
 - [Extraction methodology, page numbering, and source integrity](prima/README.md).
+- [Preserved source-page proof and manifest](evidence/audit_2026-10-14/README.md).
 
 The text extraction is intended to make quotations **locatable and verifiable**. It may omit text embedded in images or preserve layout artifacts. **Always inspect the original page before making a claim or quoting a passage.**
 
 ## Lore and evidence-based research
 
-- **[Current research index](research/START_HERE.md)** — newer corrections, ancient world, humans, characters, exact proof status.
-- **[Canon & Evidence Dossier v4](evidence/Goblin_Commander_Complete_Evidence_Dossier_v4.md)** — campaign chronology, clan mythology, source references, correction notes, and unresolved questions.
+- **[Everything We Know](EVERYTHING_WE_KNOW.md)** — one readable guide to the recovered knowledge, with source notes and open questions.
+- **[Current research index](research/START_HERE.md)** — corrections, specialist documents, and source status.
+- **[Canon & Evidence Dossier v4](evidence/Goblin_Commander_Complete_Evidence_Dossier_v4.md)** — historical campaign chronology, clan mythology, source references, and research leads; read with the later audit's corrections.
 - [Earlier evidence dossier v3](evidence/Goblin_Commander_Complete_Evidence_Dossier_v3.md).
-- [Claim-by-claim evidence ledger v3](evidence/Goblin_Commander_Claims_Evidence_v3.csv).
+- [Historical claim-by-claim evidence ledger v3](evidence/Goblin_Commander_Claims_Evidence_v3.csv).
 - [Historical source register v3](evidence/Goblin_Commander_Master_Sources_v3.csv).
 
 ### Research methodology
@@ -91,6 +102,6 @@ The referenced Prima PDF has this SHA-256 checksum:
 
 `d97aa508cdc14fa0b89df6ee2009484ec6fffac304f4c79280755f9daa4690a7`
 
-The searchable text is reproducibly generated from that file using `python3 tools/extract_prima_text.py` and Poppler's `pdftotext`. The [GitHub Actions extraction workflow](.github/workflows/publish-prima-text.yml) can regenerate it when the PDF or extraction script changes.
+The searchable text is reproducibly generated from that file using `python3 tools/extract_prima_text.py` and Poppler's `pdftotext`. The [GitHub Actions extraction workflow](.github/workflows/publish-prima-text.yml) can regenerate it when the PDF or extraction script changes. The [project-audit workflow](.github/workflows/reconcile-project-audit.yml) records the proof-reproduction and V6 reconciliation process.
 
 *All trademarks, game content, and third-party source materials remain with their respective owners. This independent project aims to preserve the historical record with transparent sourcing and respect for creators' rights.*
