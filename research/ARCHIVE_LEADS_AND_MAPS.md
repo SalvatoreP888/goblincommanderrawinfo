@@ -62,7 +62,7 @@ The earlier handoff identifies numbered variants 001–009. Original image bytes
 
 ### A05 — title/trademark chronology
 
-The prior handoff lists word-mark serial 76489437 and stylized-mark serial 78255930 as searches to verify against official records. It also points to [WorthPlaying's March 7, 2003 announcement](https://worthplaying.com/article/2003/3/7/news/8684-jaleco-unleashes-the-horde-with-goblin-commander/). Treat the exact filing/status history as not re-audited here. Trademark status is not proof that the game, art, source code or name is free to reuse. Do not infer present ownership or public-domain status from an abandoned/cancelled mark.
+The prior handoff lists word-mark serial 76489437 and stylized-mark serial 78255930 as searches to verify against official records. It also points to [WorthPlaying's March 7, 2003 announcement](https://www.worthplaying.com/archive/2003/3/7/). Treat the exact filing/status history as not re-audited here. Trademark status is not proof that the game, art, source code or name is free to reuse. Do not infer present ownership or public-domain status from an abandoned/cancelled mark.
 
 ### A06 — Nintendo Power
 

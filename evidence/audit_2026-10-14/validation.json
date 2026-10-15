@@ -1,0 +1,35 @@
+{
+  "audit_date": "2026-10-14 America/New_York",
+  "renderer_version": "1.26.7",
+  "prima_sha256": "d97aa508cdc14fa0b89df6ee2009484ec6fffac304f4c79280755f9daa4690a7",
+  "prima_pdf_pages": 129,
+  "manual_sha256": "74f0398a7c3ce0fc3d3434a14c7c90b9f5053aec600188d2ed814eeb2d2f1f3f",
+  "manual_pdf_pages": 19,
+  "v5_claims": 131,
+  "v6_claims": 133,
+  "unique_claim_ids": 133,
+  "restored_v4_claims": [
+    "GC-132",
+    "GC-133"
+  ],
+  "original_v4_captures_reproduced": 41,
+  "unique_recovered_crop_hashes": 40,
+  "all_41_original_capture_hashes_matched": true,
+  "all_referenced_proof_files_exist": true,
+  "source_passages_rechecked_rows": 52,
+  "proof_file_records": 85,
+  "audit_dispositions": {
+    "Inherited claim; source linked; not independently reverified in this audit": 39,
+    "Original manual passage visually checked; not a PS2 runtime trace": 27,
+    "Direct guide page preserved; retail implementation/dialogue not verified": 30,
+    "Guide passage rechecked; preserve attribution and qualifications": 25,
+    "Inference or open lead; not promoted to canon by this audit": 12
+  },
+  "warnings": [
+    "Complete raw project chat export was not available",
+    "Current browser-port code and wave19 traces were not recovered",
+    "Raw session/log metadata preserved in user package rather than bulk-published",
+    "Inherited claims without a fresh check are not certified",
+    "Guide/manual captures do not prove identical retail implementation across platforms"
+  ]
+}

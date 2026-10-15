@@ -1,0 +1,9 @@
+from_version,old_id,current_ids,meaning
+V4,GC-112,GC-132,Sacrifice replenishment rule; restored omitted V4 finding
+V4,GC-113,GC-049;GC-114,Wise One ambush; V5 changed ID allocation
+V4,GC-114,GC-115,Naxus confession
+V4,GC-115,GC-116,Nighthorde defectors
+V4,GC-116,GC-117,Great Machine components
+V4,GC-117,GC-118,Purple bomb rearming
+V4,GC-118,GC-119,Graveyard Soul Wells
+V4,GC-119,GC-133,Observatories also Scout Towers; restored omitted V4 finding

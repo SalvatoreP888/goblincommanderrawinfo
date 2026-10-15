@@ -1,3 +1,5 @@
+> **Project-wide audit supersedes older status below.** Read the [14 October audit](research/PROJECT_AUDIT_2026-10-14.md) for V6 corrections, actual committed proof, technical research and outreach. Older references to missing PNGs or V5 as the latest ledger are historical.
+
 # Goblin Commander: Unleash the Horde — Historical Research & Preservation Archive
 
 > **Independent historical archive · Game preservation · Source-based research · Fair-use context**

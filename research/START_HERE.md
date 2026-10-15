@@ -1,3 +1,5 @@
+> **Project-wide audit supersedes older status below.** Read the [14 October audit](PROJECT_AUDIT_2026-10-14.md) for V6 corrections, actual committed proof, technical research and outreach. Older references to missing PNGs or V5 as the latest ledger are historical.
+
 # Goblin Commander — current research index (14 October 2026)
 
 This is the entrypoint for the **latest** sourced knowledge about *Goblin Commander: Unleash the Horde* (2003). Older reports are retained as dated snapshots; do not assume every older paragraph is up to date.
